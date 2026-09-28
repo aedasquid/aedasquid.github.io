@@ -117,7 +117,6 @@ header .bobber {
 
     display: flex;
     flex-direction: row;
-    gap: 1rem;
 
     font-size: 1rem;
     letter-spacing: 0.025rem;
@@ -127,18 +126,21 @@ header .bobber {
 
 .article .line {
     width: 100%;
-    margin: 0px;
+    margin: 1rem 0px;
 }
 
-.article .half {
-    flex: 1;
-    max-width: 50%;
-    align-self: center;
-    margin: 0px auto;
+.article .small-gap {
+    height: 0.5rem;
+}
+
+.article .big-gap {
+    height: 1.5rem;
 }
 
 .article .full {
     max-width: 100%;
+
+    display: flex;
 }
 
 .article .centered {
@@ -146,12 +148,13 @@ header .bobber {
 }
 
 .article img {
-    max-width: clamp(0px, 500px, 50%);
+    max-width: 100%;
     object-fit: contain;
+    align-self: flex-start;
 }
 
 .article iframe {
-    width: clamp(0px, 750px, 100%);
+    width: 100%;
     object-fit: contain;
     align-self: center;
 }
@@ -176,6 +179,16 @@ header .bobber {
 
 .article li {
     margin-bottom: 1rem;
+}
+
+.article h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.article .no-margin {
+    margin: 0px;
 }
 
 .article h4 {
@@ -523,6 +536,10 @@ a:hover {
         flex-direction: column;
         padding: 0px 1rem;
         width: 100%;
+    }
+
+    .article .row {
+        flex-direction: column;
     }
 
     .article .half {

@@ -1,3 +1,12 @@
-const iframe = document.querySelector('.video-frame');
-const ratio = 9 / 16; // or detect dynamically if you know the video
-iframe.style.height = iframe.offsetWidth * ratio + 'px';
+const iframes = document.querySelectorAll('.video-frame');
+const ratio = 9 / 16;
+
+function resizeIframes() {
+  iframes.forEach(iframe => {
+    iframe.style.height = iframe.offsetWidth * ratio + 'px';
+  });
+}
+
+resizeIframes();
+
+window.addEventListener('resize', resizeIframes);
