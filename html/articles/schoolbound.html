@@ -51,7 +51,7 @@
             <div class="col-md-12 col-lg-6">
               <div class="small-gap"></div>
               <h1>OVERVIEW</h1>
-              <p>Made for a course assignment, Schoolbound is a narrative horror set in a Southeast
+              <p>Made for a course assignment, <i>Schoolbound</i> is a narrative horror set in a Southeast
                 Asian school, where the player is tasked to buy and complete a haunted collection of
                 cards to break their curse of being bound to the school.
               </p>
@@ -97,11 +97,11 @@
           </div>
 
           <div class="contact-buttons">
-            <a href="https://www.linkedin.com/in/jake-lew-zhi-jie/" target="_blank">
+            <a id="linkedin" target="_blank">
               <img src="../../media/icons/linkedin_icon.png" alt="Click to view my LinkedIn.">
             </a>
 
-            <a href="mailto:jakelew@outlook.sg" target="_blank">
+            <a id="email" target="_blank">
               <img src="../../media/icons/email_icon.png" alt="Click to write me an email">
             </a>
           </div>
@@ -115,6 +115,12 @@
             </div>
           </div>
         </div>
+
+        <script type="module"> 
+          import { LINKS } from "../../js/links.js";
+          document.getElementById("linkedin").href = LINKS.linkedin;
+          document.getElementById("email").href = LINKS.email;
+        </script>
 
         <script src="../../js/modalPopup.js"></script>
         <script src="../../js/iframeHeightSetter.js"></script>

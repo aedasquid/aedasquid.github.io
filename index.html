@@ -124,7 +124,7 @@
 
               <!-- rot card -->
               <div class="col-md-6 col-lg-4">
-                <a href="articles/dev-update-004.html" class="text-decoration-none">
+                <a href="html/articles/rot.html" class="text-decoration-none">
                   <div class="card mb-3">
                     <div class="card-body">
                       <h5 class="card-title">ROT</h5>
@@ -154,15 +154,21 @@
           </div>
 
           <div class="contact-buttons">
-            <a href="https://www.linkedin.com/in/jake-lew-zhi-jie/" target="_blank">
+            <a id="linkedin" target="_blank">
               <img src="../media/icons/linkedin_icon.png" alt="Click to view my LinkedIn.">
             </a>
 
-            <a href="mailto:jakelew@outlook.sg" target="_blank">
+            <a id="email" target="_blank">
               <img src="../media/icons/email_icon.png" alt="Click to write me an email">
             </a>
           </div>
         </footer>
+
+        <script type="module"> 
+          import { LINKS } from "../../js/links.js";
+          document.getElementById("linkedin").href = LINKS.linkedin;
+          document.getElementById("email").href = LINKS.email;
+        </script>
 
     </body>
 </html>

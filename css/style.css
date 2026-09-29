@@ -177,10 +177,6 @@ header .bobber {
     margin-bottom: 0;
 }
 
-.article li {
-    margin-bottom: 1rem;
-}
-
 .article h1 {
     font-size: 1.5rem;
     font-weight: 300;
@@ -191,25 +187,11 @@ header .bobber {
     margin: 0px;
 }
 
-.article h4 {
-    color: var(--softOrange);
-    font-weight: 1000;
-    margin-top: 1rem;
-}
-
 .article .thumbnail {
     width: 100%;
     object-fit: cover;
     align-self: center;
     margin: 1rem;
-}
-
-.article .blogButton {
-    margin: 1rem auto;
-}
-
-.article .blogButton img {
-    transform: scale(-1);
 }
 
 .article a {
@@ -576,6 +558,10 @@ footer {
 
     .article .row {
         flex-direction: column;
+    }
+
+    .article .reverse {
+        flex-direction: column-reverse;
     }
 
     .article .half {
