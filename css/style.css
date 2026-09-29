@@ -328,61 +328,61 @@ header .bobber {
 
 /*#region INDIVIDUAL GAME DEV CARDS*/
 .card .card-iamnotarobot{
-    background-image: url("../images/iamnotarobot/iamnotarobot_thmb01.jpg");
+    background-image: url("../media/iamnotarobot/iamnotarobot_thmb01.jpg");
 }
 
 .card:hover .card-iamnotarobot{
-    background-image: url("../images/iamnotarobot/iamnotarobot_thmb02.jpg");
+    background-image: url("../media/iamnotarobot/iamnotarobot_thmb02.jpg");
 }
 
 .card .card-whalefall{
-    background-image: url("../images/whalefall/whalefall_thmb01.jpg");
+    background-image: url("../media/whalefall/whalefall_thmb01.jpg");
 }
 
 .card:hover .card-whalefall{
-    background-image: url("../images/whalefall/whalefall_thmb02.jpg");
+    background-image: url("../media/whalefall/whalefall_thmb02.jpg");
 }
 
 .card .card-schoolbound{
-    background-image: url("../images/schoolbound/schoolbound_thmb01.jpg");
+    background-image: url("../media/schoolbound/schoolbound_thmb01.jpg");
 }
 
 .card:hover .card-schoolbound{
-    background-image: url("../images/schoolbound/schoolbound_thmb02.jpg");
+    background-image: url("../media/schoolbound/schoolbound_thmb02.jpg");
 }
 
 .card .card-campyre{
-    background-image: url("../images/campyre/campyre_thmb01.jpg");
+    background-image: url("../media/campyre/campyre_thmb01.jpg");
 }
 
 .card:hover .card-campyre{
-    background-image: url("../images/campyre/campyre_thmb02.jpg");
+    background-image: url("../media/campyre/campyre_thmb02.jpg");
 }
 
 .card .card-rot{
-    background-image: url("../images/rotGame/rot_thmb01.jpg");
+    background-image: url("../media/rotGame/rot_thmb01.jpg");
 }
 
 .card:hover .card-rot{
-    background-image: url("../images/rotGame/rot_thmb02.jpg");
+    background-image: url("../media/rotGame/rot_thmb02.jpg");
 }
 /*#endregion INDIVIDUAL GAME DEV CARDS*/
 
 /*#region INDIVIDUAL OTHER PROJECT CARDS*/
 .card .card-resolutionFilm{
-    background-image: url("../images/resolutionFilm/resolutionFilm_thmb01.jpg");
+    background-image: url("../media/resolutionFilm/resolutionFilm_thmb01.jpg");
 }
 
 .card:hover .card-resolutionFilm{
-    background-image: url("../images/resolutionFilm/resolutionFilm_thmb02.jpg");
+    background-image: url("../media/resolutionFilm/resolutionFilm_thmb02.jpg");
 }
 
 .card .card-hunterFilm{
-    background-image: url("../images/hunterFilm/hunterFilm_thmb01.jpg");
+    background-image: url("../media/hunterFilm/hunterFilm_thmb01.jpg");
 }
 
 .card:hover .card-hunterFilm{
-    background-image: url("../images/hunterFilm/hunterFilm_thmb02.jpg");
+    background-image: url("../media/hunterFilm/hunterFilm_thmb02.jpg");
 }
 /*#endregion INDIVIDUAL OTHER PROJECT CARDS*/
 
