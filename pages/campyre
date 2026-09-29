@@ -8,20 +8,20 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <link href="../../css/style.css" rel="stylesheet">
-        <link rel="shortcut icon" href="../../media/icons/aedaSquid_logoS.png">
+        <link href="../css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../media/icons/aedaSquid_logoS.png">
     </head>
     <body>
         <header>
-          <a class="header-name" href="../../index.html">
-            <img class="logo-aeda" src="../../media/icons/aedaSquid_logoW.png" alt="Logo, a cartoon squid.">
+          <a class="header-name" href="../index">
+            <img class="logo-aeda" src="../media/icons/aedaSquid_logoW.png" alt="Logo, a cartoon squid.">
             <h1>JAKE LEW</h1>
           </a>
           
           <div class="header-nav d-flex flex-column flex-md-row align-items-left justify-content-center">
-            <a class="nav-link custom-link" href="../../index.html">Game Dev</a>
-            <a class="nav-link custom-link" href="../other-projects.html">Other Projects</a>
-            <a class="nav-link custom-link" href="../about.html">About</a>
+            <a class="nav-link custom-link" href="../index">Game Dev</a>
+            <a class="nav-link custom-link" href="other-projects">Other Projects</a>
+            <a class="nav-link custom-link" href="about">About</a>
           </div>
         </header>
 
@@ -37,8 +37,8 @@
 
           <div class="row">
             <div class="col-md-12 col-lg-6">
-              <video class="video-frame" autoplay muted loop poster="../../media/campyre/campyre_thmb02.jpg">
-                <source src="../../media/campyre/campyre_reel.mp4" type="video/mp4">
+              <video class="video-frame" autoplay muted loop poster="../media/campyre/campyre_thmb02.jpg">
+                <source src="../media/campyre/campyre_reel.mp4" type="video/mp4">
               </video>
             </div>
 
@@ -75,7 +75,7 @@
                 SFX from <a href="https://shapeforms.itch.io/shapeforms-audio-free-sfx" class="openModal" data-text="This will lead to the itch.io page of the SFX pack by Shapeforms.">Shapeforms</a>,
                 <a href="https://kronbits.itch.io/freesfx" class="openModal" data-text="This will lead to the itch.io page of the SFX pack by Kronbits.">Kronbits</a>,
                 and <a href="https://leohpaz.itch.io/rpg-essentials-sfx-free" class="openModal" data-text="This will lead to the itch.io page of the SFX pack by Leohpaz.">Leohpaz</a>,
-                and font by <a href="https://datagoblin.itch.io/monogram" class="openModal" data-text="This will lead to the itch.io page of the Monogram font by datagoblin.">datagoblin</a>.
+                and font from <a href="https://datagoblin.itch.io/monogram" class="openModal" data-text="This will lead to the itch.io page of the Monogram font by datagoblin.">datagoblin</a>.
               </p>
             </div>
           </div>
@@ -104,7 +104,7 @@
             </div>
 
             <div class="col-sm-12 col-md-6">
-              <img src="../../media/campyre/campyre_s01.jpg">
+              <img src="../media/campyre/campyre_s01.jpg">
             </div>
           </div>
 
@@ -113,9 +113,9 @@
 
           <div class="row reverse">
             <div class="col-sm-12 col-md-6">
-              <img src="../../media/campyre/campyre_s02.jpg">
+              <img src="../media/campyre/campyre_s02.jpg">
               <div class="big-gap"></div>
-              <img src="../../media/campyre/campyre_s03.jpg">
+              <img src="../media/campyre/campyre_s03.jpg">
             </div>
 
             <div class="col-sm-12 col-md-6">
@@ -164,7 +164,7 @@
 
             <div class="col-sm-12 col-md-6">
               <h1>TEAM</h1>
-              <p><a id="greyGoh">Grey Goh Zi Ying</a> | Tileset Assembly, Arena Layout, Asset Integrator and Editor</p>
+              <p><a id="greyGoh" class="openModal" data-text="This will lead to the portfolio site of Grey Goh.">Grey Goh Zi Ying</a> | Tileset Assembly, Arena Layout, Asset Integrator and Editor</p>
               <p>Jake Lew Zhi Jie | Gameplay Designer, Programmer, Animator, and VFX Artist</p>
             </div>
           </div>
@@ -180,11 +180,11 @@
 
           <div class="contact-buttons">
             <a id="linkedin" target="_blank">
-              <img src="../../media/icons/linkedin_icon.png" alt="Click to view my LinkedIn.">
+              <img src="../media/icons/linkedin_icon.png" alt="Click to view my LinkedIn.">
             </a>
 
             <a id="email" target="_blank">
-              <img src="../../media/icons/email_icon.png" alt="Click to write me an email">
+              <img src="../media/icons/email_icon.png" alt="Click to write me an email">
             </a>
           </div>
         </footer>
@@ -199,14 +199,14 @@
         </div>
 
         <script type="module"> 
-          import { LINKS } from "../../js/links.js";
+          import { LINKS } from "../js/links.js";
           document.getElementById("linkedin").href = LINKS.linkedin;
           document.getElementById("email").href = LINKS.email;
 
           document.getElementById("greyGoh").href = LINKS.greyGoh;
         </script>
-        <script src="../../js/modalPopup.js"></script>
-        <script src="../../js/iframeHeightSetter.js"></script>
+        <script src="../js/modalPopup.js"></script>
+        <script src="../js/iframeHeightSetter.js"></script>
 
     </body>
 </html>

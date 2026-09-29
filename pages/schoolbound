@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+        <title>Schoolbound | Jake Lew - Game Dev Portfolio</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="../css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../media/icons/aedaSquid_logoS.png">
+    </head>
+    <body>
+        <header>
+          <a class="header-name" href="../index">
+            <img class="logo-aeda" src="../media/icons/aedaSquid_logoW.png" alt="Logo, a cartoon squid.">
+            <h1>JAKE LEW</h1>
+          </a>
+          
+          <div class="header-nav d-flex flex-column flex-md-row align-items-left justify-content-center">
+            <a class="nav-link custom-link" href="../index">Game Dev</a>
+            <a class="nav-link custom-link" href="other-projects">Other Projects</a>
+            <a class="nav-link custom-link" href="about">About</a>
+          </div>
+        </header>
+
+        <div class="article flex-column">
+          <div class="full flex-column">
+            <h5 class="article-title">SCHOOLBOUND</h5>
+            <p class="article-date"><small>2025 (PC/Mac)</small></p>
+          </div>
+
+          <div class="full">
+            <hr class="line">
+          </div>
+
+          <!-- <div class="full justify-content-center">
+            <iframe class="video-frame"
+            src="https://www.youtube.com/embed/ebnVx07TJCM?si=uB8867rKOwAGso1W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+          </div> -->
+
+          <div class="row">
+            <div class="col-md-12 col-lg-6">
+              <iframe class="video-frame"
+              src="https://www.youtube.com/embed/ebnVx07TJCM?si=uB8867rKOwAGso1W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+              <div class="small-gap"></div>
+              <h1>OVERVIEW</h1>
+              <p>Made for a course assignment, <i>Schoolbound</i> is a narrative horror set in a Southeast
+                Asian school, where the player is tasked to buy and complete a haunted collection of
+                cards to break their curse of being bound to the school.
+              </p>
+              <p>At night, the player must avoid the roaming spirits while exchanging items lost by
+                students with the cryptic bookshop auntie for money. In the day, the player can buy
+                card packs of the haunted collection from the same bookshop auntie, who becomes
+                a warm caretaker for everyone.
+              </p>
+            </div>
+          </div>
+
+          <div class="big-gap"></div>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <p>Released: April 2025 on PC and Mac.</p>
+              <p>Download from: <a href="https://cobolo.itch.io/schoolbound">https://cobolo.itch.io/schoolbound</a></p>
+              <p>Reception: <a href="https://www.zaobao.com.sg/news/singapore/story20250511-6321103" class="openModal" 
+                data-text="This will lead to the Lianhe Zaobao article on the interview with the Schoolbound team. Language is in Simplified Chinese">
+                Featured in Lianhe Zaobao</a>, Singapore’s largest Chinese-language newspaper. 
+                Over 4,000 downloads and 100,000+ streaming views within 3 months of launch.
+              </p>
+              <!-- <p><a href="schoolbound-more.html">Head over here</a> to read more about the process.</p> -->
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+              <p>Time spent on project: 12 weeks</p>
+              <p>Team size: 6</p>
+              <p>Contributions: Gameplay design, programming, events programming and scripting,
+                gameloop and emergent horror design, enemy behaviours, player progression, player
+                stealth mechanics, player interaction system, and sound design.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <footer>
+          <div class="copyright">
+            <p>Selected works © respective creators.</p>
+            <p>Portfolio © <script>document.write(new Date().getFullYear());</script> AedaSquid (Jake Lew Zhi Jie).</p>
+            <p>Hosted by Github Pages.</p>
+          </div>
+
+          <div class="contact-buttons">
+            <a id="linkedin" target="_blank">
+              <img src="../media/icons/linkedin_icon.png" alt="Click to view my LinkedIn.">
+            </a>
+
+            <a id="email" target="_blank">
+              <img src="../media/icons/email_icon.png" alt="Click to write me an email">
+            </a>
+          </div>
+        </footer>
+
+        <div id="universalModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-body"></div>
+              <div class="modal-actions">
+              <button class="cancel">Cancel</button><button class="continue">Continue</button>
+            </div>
+          </div>
+        </div>
+
+        <script type="module"> 
+          import { LINKS } from "../js/links.js";
+          document.getElementById("linkedin").href = LINKS.linkedin;
+          document.getElementById("email").href = LINKS.email;
+        </script>
+
+        <script src="../js/modalPopup.js"></script>
+        <script src="../js/iframeHeightSetter.js"></script>
+
+    </body>
+</html>
