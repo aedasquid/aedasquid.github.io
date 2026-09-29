@@ -69,7 +69,7 @@ header .header-name img {
 }
 
 header .header-name:hover {
-    filter: invert(53%) sepia(95%) saturate(3493%) hue-rotate(2deg) brightness(101%) contrast(104%);
+    color: var(--orange);
 }
 
 header .header-nav {
