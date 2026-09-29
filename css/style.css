@@ -552,6 +552,10 @@ a:hover {
         align-self: center;
     }
 
+    .card img {
+        height: 250px;
+    }
+
     header {
         align-items: center;
         justify-self: center;
