@@ -395,20 +395,6 @@ header .bobber {
 }
 /*#endregion OVERWRITES BOOTSTRAP CARDS */
 
-.community {
-    background-image: url("../images/communityImage.jpg");
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    height: 80vh;
-    width: auto;
-}
-
 .contact-buttons {
     width: fit-content;
 
@@ -484,14 +470,64 @@ footer {
     color: var(--orange);
 }
 
-/* a {
-    color: white;
-    text-decoration: none;
+/*#region MODAL POPUP*/
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+
+    display: none;
+    align-content: center;
+    justify-content: center;
+
+    color: var(--softWhite);
+    font-size: 1rem;
+    letter-spacing: 0.025rem;
+    line-height: 1.7rem;
 }
 
-a:hover {
+.modal h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.modal-content {
+    background-color: var(--black);
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+
+    border-radius: 0;
+}
+
+.modal-actions {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.modal-actions button {
+    margin-left: 10px;
+    border: none;
+    padding: 0.1rem 1rem;
+    background-color: transparent;
+    transition: 0.2s ease;
+}
+
+.modal-actions .cancel {
+    color: var(--lightGrey);
+}
+
+.modal-actions .continue {
+    color: var(--softOrange);
+}
+
+.modal-actions button:hover {
     color: var(--orange);
-} */
+}
+/*#endregion MODAL POPUP*/
 
 .arrow {
     width: 2rem;
