@@ -5,6 +5,8 @@ export const LINKS = {
   erinKristyn: "https://erinkristynmtp.my.canva.site/",
   ethanYap: "https://ethanyap.my.canva.site/",
   neoWeiEn: "https://neoweien.my.canva.site/",
+  angAbdiel: "https://angabdiel118.wixsite.com/angabdiel",
+  sylvestianLee: "https://melonjoose.my.canva.site/",
   tanClara: "https://claratanry.my.canva.site/"
 };
 

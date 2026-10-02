@@ -228,7 +228,7 @@ header .bobber {
 }
 
 .article .show-button:hover {
-        color: var(--orange);
+    color: var(--orange);
 }
 
 .article .hidden {
