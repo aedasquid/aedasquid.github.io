@@ -10,3 +10,9 @@ showButton.addEventListener('click', () => {
   extraContent.classList.add('revealed');
   showButton.remove();
 });
+
+          // <button class="show-button" id="showButton" data-label="DESIGN PILLARS"></button>
+
+          // <div id="extraContent" class="hidden"></div>
+
+          // <script src="../js/showMoreButton.js"></script>
